@@ -34,6 +34,65 @@
 div {
     font-family: arfmo;
 }
+#main-nav {
+    width: 100%;
+    height: 67px;
+    background: #f2f2f2;
+}
+#main-nav .subnav {
+    display: none;
+    position: absolute;
+    top: 67px;
+    left: 0px;
+    width: 100%;
+    list-style-type: none;
+    background: #fff;
+    margin: 0;
+    border:solid 1px #eeeeee;
+    z-index:5;
+    padding:0;
+}
+#main-nav .subnav li {
+    display: block;
+    border-bottom: solid 1px #eeeeee;
+    margin:0;
+}
+#main-nav .subnav li a {
+    color: #333;
+    height:18px;
+    padding:10px 0;
+    font-size:13px;
+}
+#main-nav .subnav li a:hover {
+    background:#f9f9f9;
+}
+#nav-primary {
+    list-style-type: none;
+    margin: 0;
+    float: left;
+    padding:0;
+}
+#nav-primary li {
+    float: left;
+    position: relative;
+}
+#nav-primary li a {
+    float: left;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    height: 48px;
+    padding-top: 19px;
+    line-height: 16px;
+    width: 164px;
+    text-decoration:none;
+}
+#nav-primary li a:hover {
+    text-decoration:none;
+}
+#nav-primary li:hover .subnav {
+    display: block;
+}
 </style>
 </head>
 <body>
@@ -85,8 +144,21 @@ div {
         <td>SCOthman for Snapchat (w/Notifications)</td>
         <td>Othman Alomiry</td>
         <td>BigBoss</td>
-        <td>12.6-4</td>
-        <td><a href="/debshow/let-the-show-begin/tv.othman.scothman_12.6-4.deb" title="SHA1 765529b31e21ef9aa299aea3b1816f72f8150276  //  MD5 c696d038c58b0504ad805d2360075c82">Link</a></td>
+        <td>Multiple</td>
+        <td>
+          <script type="text/javascript">
+            function download(d) {
+        if (d == 'Select document') return;
+        window.location = 'https://rov3r.github.io/debshow/let-the-show-begin/' + d;
+}
+</script>
+
+<select name="download" onChange="download(this.value)">
+<option value="tv.othman.scothman_12.6-4.deb">12.6-4</option>
+<option value="tv.othman.scothman_12.6-9.deb">12.6-9</option>
+<option value="tv.othman.scothman_12.7-2.deb">12.7-2</option>
+</select>
+        </td>
       </tr>
       <tr>
         <td>Actual Battery</td>
@@ -127,8 +199,8 @@ div {
         <td>RealCC</td>
         <td>jakeashacks</td>
         <td>jakeashacks</td>
-        <td>1.0</td>
-        <td><a href="/debshow/let-the-show-begin/com.jakeashacks.realcc_1.0.deb" title="SHA1 e4d8aef7e31494adf1504e1112fb1b5afe931df6  //  MD5 7d5c549e17243b93d99d00166307c96a">Link</a></td>
+        <td>0.0.1-14</td>
+        <td><a href="/debshow/let-the-show-begin/com.yourcompany.realcc_0.0.1-14+debug_iphoneos-arm.deb" title="SHA1 8a95b7d049a5cc44c8bf03b2d6b9081e02c51bdf  //  MD5 c62a42d45776814a60d2a4626ecc007d">Link</a></td>
       </tr>
     </table>
     <font size="2">
